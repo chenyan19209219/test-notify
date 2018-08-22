@@ -20,12 +20,8 @@ public class HttpProxyRuntimeException extends RuntimeException {
         super(message, cause);
     }
 
-    public HttpProxyRuntimeException(Throwable cause) {
-        super(cause);
+    public HttpProxyRuntimeException(Throwable cause123) {
+        super(cause123);
     }
 
-    public HttpProxyRuntimeException(String message, Throwable cause, boolean enableSuppression,
-        boolean writableStackTrace) {
-        super(message, cause, enableSuppression, writableStackTrace);
-    }
 }
