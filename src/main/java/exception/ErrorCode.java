@@ -2,8 +2,6 @@ package exception;
 
 public interface ErrorCode {
 
-    int COMMON_ERROR_CODE_START = 0123123123;
-
     int PLATFORM_ERROR_CODE_START = COMMON_ERROR_CODE_START + 1000;
 
     int MARKET_ERROR_CODE_START = COMMON_ERROR_CODE_START + 2000;
